@@ -51,7 +51,7 @@ with col_dice_formula:
 st.markdown("**Jaccard Index:** (Ortakları, birleşime böl!)")
 col_jaccard_img, col_jaccard_formula = st.columns([1, 1])
 with col_jaccard_img:
-    st.image("Jaccard.png", width=300)
+    st.image("jaccard.png", width=300)
 with col_jaccard_formula:
     st.markdown("<div style='margin-top: 60px'></div>", unsafe_allow_html=True)
     st.latex(r"Jaccard(A, B) = \frac{|A \cap B|}{|A \cup B|}")
