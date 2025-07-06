@@ -42,7 +42,7 @@ st.markdown("### 📏 Tanımlar ve Formüller (Korkma, Çok Kolay!)")
 st.markdown("**Dice Coefficient:** (Ortakları ikiyle çarp, toplam elemana böl!)")
 col_dice_img, col_dice_formula = st.columns([1, 1])
 with col_dice_img:
-    st.image("C:/Users/MONS/Documents/Github/Dice.png", width=300)
+    st.image("Dice.png", width=300)
 with col_dice_formula:
     st.markdown("<div style='margin-top: 60px'></div>", unsafe_allow_html=True)
     st.latex(r"Dice(A, B) = \frac{2 |A \cap B|}{|A| + |B|}")
@@ -51,7 +51,7 @@ with col_dice_formula:
 st.markdown("**Jaccard Index:** (Ortakları, birleşime böl!)")
 col_jaccard_img, col_jaccard_formula = st.columns([1, 1])
 with col_jaccard_img:
-    st.image("C:/Users/MONS/Documents/Github/Jaccard.png", width=300)
+    st.image("Jaccard.png", width=300)
 with col_jaccard_formula:
     st.markdown("<div style='margin-top: 60px'></div>", unsafe_allow_html=True)
     st.latex(r"Jaccard(A, B) = \frac{|A \cap B|}{|A \cup B|}")
@@ -86,7 +86,7 @@ with st.expander("🎁 Sürpriz Not: Jaccard Index'in Gizli Kimliği!"):
     """)
     col1, col2, col3 = st.columns([1,2,1])
     with col2:
-        st.image("C:\\Users\\MONS\\Documents\\Github\\iou_example.png", caption="IoU (Intersection over Union) - Görüntü İşlemede Jaccard Index'in Kullanımı", width=400)
+        st.image("iou_example.png", caption="IoU (Intersection over Union) - Görüntü İşlemede Jaccard Index'in Kullanımı", width=400)
 
 
 st.header("📝 Kendi Kümenizi Girin ve Hesaplayın!")
